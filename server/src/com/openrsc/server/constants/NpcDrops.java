@@ -1216,6 +1216,7 @@ public class NpcDrops {
 		currentNpcDrops.addEmptyDrop(128 - currentNpcDrops.getTotalWeight());
 		this.npcDrops.put(NpcId.CHAOS_DRUID.id(), currentNpcDrops);
 
+		// TODO: Dragon Square?
 		currentNpcDrops = new DropTable("Black Demon (290)");
 		currentNpcDrops.addTableDrop(herbDropTable, 23);
 		currentNpcDrops.addTableDrop(rareDropTable, 1);
@@ -1242,6 +1243,7 @@ public class NpcDrops {
 		currentNpcDrops.addEmptyDrop(128 - currentNpcDrops.getTotalWeight());
 		this.npcDrops.put(NpcId.BLACK_DEMON.id(), currentNpcDrops);
 
+		// TODO: Dragon Square?
 		currentNpcDrops = new DropTable("Black Dragon (291)");
 		currentNpcDrops.addTableDrop(herbDropTable, 3);
 		currentNpcDrops.addTableDrop(rareDropTable, 1);
@@ -1318,6 +1320,7 @@ public class NpcDrops {
 		this.npcDrops.put(NpcId.PALADIN_UNDERGROUND_BEARD.id(), currentNpcDrops);
 		this.npcDrops.put(NpcId.PALADIN_UNDERGROUND.id(), currentNpcDrops);
 
+		// TODO: Dragon Square?
 		currentNpcDrops = new DropTable("Fire Giant (344)");
 		currentNpcDrops.addTableDrop(herbDropTable, 23);
 		currentNpcDrops.addTableDrop(rareDropTable, 1);
@@ -1389,6 +1392,7 @@ public class NpcDrops {
 		currentNpcDrops.addItemDrop(ItemId.PLAGUED_SHEEP_REMAINS_4.id(), 1, 0);
 		this.npcDrops.put(NpcId.FOURTH_PLAGUE_SHEEP.id(), currentNpcDrops);
 
+		// TODO Dragon Shield?
 		currentNpcDrops = new DropTable("King Black Dragon (477)");
 		currentNpcDrops.addTableDrop(ultraRareDropTable, 1);
 		currentNpcDrops.addTableDrop(rareDropTable, 1);
